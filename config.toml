@@ -1,0 +1,88 @@
+baseurl      = "https://imps.dev"
+title        = "Imps.dev"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+relativeURLs = true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Subtitle for home
+  homeSubtitle = "Imp."
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  [params.portrait]
+    path = "/img/IMG_0088_500.png"
+    alt = "Portrait"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Numou the Impfox"
+    subtitle = ""
+    keywords = ""
+    copyright = 'Numou the Impfox'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "imps.dev"
+      logoHomeLink = "/"
+      # Set true to remove the logo cursor entirely.
+      # logoCursorDisabled = false
+      # Set to a valid CSS color to change the cursor in the logo.
+      logoCursorColor    = "#333399"
+      # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+      logoCursorAnimate  = "2s"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "test"
+    name = "Test"
+    url = "/test"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/numoutheimpfox"
+
+  [[params.social]]
+    name = "email"
+    url  = "numou@impfo.xyz"
+
+  [[params.social]]
+    name = "telegram"
+    url  = "https://t.me/Numou"
+
+  [[params.social]]
+    name = "keybase"
+    url  = "https://keybase.io/numou"
+
+  [[params.social]]
+    name = "furaffinity"
+    url  = "https://furaffinity.net/user/numou"
