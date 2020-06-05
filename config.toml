@@ -73,7 +73,7 @@ relativeURLs = true
 
   [[params.social]]
     name = "email"
-    url  = "numou@impfo.xyz"
+    url  = "mailto:numou@impfo.xyz"
 
   [[params.social]]
     name = "telegram"
