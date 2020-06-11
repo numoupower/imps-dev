@@ -57,14 +57,14 @@ relativeURLs = true
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
-  [[menu.main]]
-    identifier = "test"
-    name = "Test"
-    url = "/test"
+#  [[menu.main]]
+#    identifier = "blog"
+#    name       = "Blog"
+#    url        = "/posts"
+#  [[menu.main]]
+#    identifier = "test"
+#    name = "Test"
+#    url = "/test"
 
   # Social icons
   [[params.social]]
