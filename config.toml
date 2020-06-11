@@ -18,7 +18,7 @@ relativeURLs = true
   disableReadOtherPosts = false
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "Numou the Impfox's site"
   keywords = "homepage, blog"
   images = [""]
 
@@ -26,8 +26,8 @@ relativeURLs = true
   defaultTheme = "dark"
 
   [params.portrait]
-    path = "/img/IMG_0088_500.png"
-    alt = "Portrait"
+    path = "/img/profile.jpg"
+    alt = "Portrait of a very mischievious imp!"
 
 [taxonomies]
     category = "blog"
