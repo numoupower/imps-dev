@@ -80,8 +80,8 @@ relativeURLs = true
     url  = "https://t.me/Numou"
 
   [[params.social]]
-    name = "keybase"
-    url  = "https://keybase.io/numou"
+    name = "github"
+    url  = "https://github.com/numoupower"
 
   [[params.social]]
     name = "furaffinity"
